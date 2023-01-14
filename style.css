@@ -295,6 +295,7 @@ span{
 footer{
     width: 60%;
     height: 100px;
+    
     margin: auto;
     border-radius: 8px;
     background-color: #ffe4c452;
@@ -302,6 +303,7 @@ footer{
 .footer-des > p{
     font-size: 20px;
     padding-top: 44px;
+    margin-top: 80px;
     color: #727272;
     font-family: sans-serif;
 }
