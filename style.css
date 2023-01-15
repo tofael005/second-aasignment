@@ -90,6 +90,7 @@ div{
   Section One Start
 -------------------*/
 .container{
+    width: 1900px;
     display: flex;
 }
 .images{
@@ -137,6 +138,7 @@ span{
     Section Two Start
 ------------------------*/
 .container{
+    width: 100%;
     display: flex;
     margin-left: 300px;
     margin-top: 150px;
@@ -289,6 +291,29 @@ span{
     border-radius: 10px;
     box-shadow: 4px 3px 10px #7474742d;
 }
+
+.project{
+    width: 1200px;
+    height: 400px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 340px;
+}
+.prj-title{
+    padding: 20px 0px;
+    font-size: 35px;
+}
+.project .ining img{
+    width: 1200px;
+    height: 320px;
+    border-radius: 10px;
+    align-items: center;
+    transition: 0.5s;
+}
+.project .ining img:hover{
+    cursor: pointer;
+    box-shadow: 5px 4px 10px #505050a8;
+}
 /*------------------------
   Footer Section Start  
 ------------------------*/
@@ -306,3 +331,12 @@ footer{
     color: #727272;
     font-family: sans-serif;
 }
+
+
+/* Media Query Section  */
+/* @media only screen and (max-width: 688px){
+    body{
+        width: 100%;
+        display: grid;
+    }
+} */
